@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario con MaterilizeCss</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+
+</head>
+<body>
+	 <div class="container" >
+        <div class="col-md-6" style="margin-left: 20%;">
+          <form style="margin: 0 auto;">
+            <div class="row">
+              <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input  id="nombre" type="text" class="validate">
+                <label for="nombre">Nombre</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="apellido" type="text" class="validate">
+                <label for="apellido">Apellido</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field">
+                <i class="material-icons prefix">https</i>
+                <input id="password" type="password" class="validate">
+                <label for="password">Contraseña</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email" data-error="Email no valido" data-success="right">Email</label>
+              </div>
+              <input type="submit" value="Aceptar" class=" col-xs-12 btn btn-success">
+              </div>
+        </form>
+      </div>
+  </div>
+</body>
+</html>
